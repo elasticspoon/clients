@@ -52,7 +52,7 @@
               <div
                 *ngIf="showPassword && !showPasswordCount"
                 class="monospaced password-wrapper"
-                [appCopyText]="cipher.login.password"
+                appSelectCopy
                 [innerHTML]="cipher.login.password | colorPassword"
               ></div>
               <div

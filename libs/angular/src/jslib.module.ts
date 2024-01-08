@@ -17,6 +17,7 @@ import { InputStripSpacesDirective } from "./directives/input-strip-spaces.direc
 import { InputVerbatimDirective } from "./directives/input-verbatim.directive";
 import { LaunchClickDirective } from "./directives/launch-click.directive";
 import { NotPremiumDirective } from "./directives/not-premium.directive";
+import { SelectCopyDirective } from "./directives/select-copy.directive";
 import { StopClickDirective } from "./directives/stop-click.directive";
 import { StopPropDirective } from "./directives/stop-prop.directive";
 import { TrueFalseValueDirective } from "./directives/true-false-value.directive";
@@ -62,6 +63,7 @@ import { IconComponent } from "./vault/components/icon.component";
     NotPremiumDirective,
     SearchCiphersPipe,
     SearchPipe,
+    SelectCopyDirective,
     StopClickDirective,
     StopPropDirective,
     TrueFalseValueDirective,
@@ -93,6 +95,7 @@ import { IconComponent } from "./vault/components/icon.component";
     NotPremiumDirective,
     SearchCiphersPipe,
     SearchPipe,
+    SelectCopyDirective,
     StopClickDirective,
     StopPropDirective,
     TrueFalseValueDirective,
